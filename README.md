@@ -1,2 +1,3 @@
 # wikipedia-articles-search
 Simple search engine for wikipedia articles
+A university project for information retrieval class that retrieves articles from wikipedia about the given topic from the user. It then creates an inverted index with the tokens of the articles and gives the user the possibility to combine words from the index with boolean queries. the ui is pretty straightforward, there is a "search" window where the user inputs a title of an article. The program scraps wikipedia and retrieves articles' titles and content into a csv file and then creates an inverted index. The user can then enter boolean queries on the inverted index tab, which will result in specific tokens.
